@@ -1,0 +1,171 @@
+body {
+    font-family: "Amatic SC", sans-serif;
+}
+#main {
+    width: 100%;
+    margin: 0 auto;
+    background-color: #000;
+}
+
+#header {
+    display: flex;
+    background-color: #000;
+    /* position: fixed; */
+    opacity: 0.6;
+}
+
+.header {
+    padding: 8px 16px;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 24px;
+}
+
+#logo {
+    background-image: url(../img/pizza.jpg);
+    height: 667px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.store-opening-time {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    padding: 8px 16px;
+
+}
+.store-opening-time span {
+    background-color: #000;
+    color: #fff;
+    padding-left: 8px;
+    padding-right: 8px;
+    font-size: 24px;
+}
+
+.content-display-img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+}
+
+.content-display-detail {
+    font-size: 100px;
+    color: #fff;
+}
+
+.content-display-bottom {
+    background-color: #000;
+    color: #fff;
+    font-size: 36px;
+}
+
+#content {
+    max-width: 980px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #fff;
+}
+
+#content h1, #content .content-menu {
+      text-align: center;
+}
+
+.content-menu {
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid #ccc;
+    font-size: 36px;
+    background-color: #000;
+}
+
+.content-menu-detail {
+    padding: 12px 24px;
+    width: 33.33%;
+    color: #fff;
+} 
+
+#content h1{
+    font-size: 64px;
+}
+
+.content-menu-price {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10px;
+}
+
+.content-menu-price span {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.content-menu-description {
+    font-size: 36px;
+}
+
+.content-menu-item-one {
+    border-bottom: 1px solid #ccc;
+}
+
+#about {
+    background-color: #f44336;
+    text-align: -webkit-center;
+}
+
+#about h1 {
+    font-size: 36px;
+}
+
+#about p {
+    font-size: 24px;
+}
+
+#about h1, #about p {
+    color: #fff;
+    text-align: center;
+}
+
+.about-content {
+    width: 980px;
+}
+.about-description {
+    display: flex;
+    justify-content: space-around;
+}
+
+.about-description img{
+    width: 150px;
+    border-radius: 50%;
+}
+
+#contact {
+    background-color: #607d8b;
+    text-align: -webkit-center;
+    color: #fff;
+
+}
+
+#contact h1 {
+    font-size: 64px;
+}
+
+#contact p {
+    font-size: 24px;
+}
+
+.contact-content {
+    width: 980px;
+}
+
+input, button {
+    display: block;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    width: 100%;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
